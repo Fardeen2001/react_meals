@@ -1,16 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./MealForm.module.css";
 import Input from "../../UI/Input";
 
 const MealsForm = (props) => {
-  const [click, setClick] = useState(0);
-
-  const incrementHandler = () => {
-    setClick(click + 1);
-  };
-  const decrementHandler = () => {
-    setClick(click - 1);
-  };
   return (
     <form className={classes.form}>
       <Input
@@ -24,8 +16,8 @@ const MealsForm = (props) => {
           defaultValue: "0",
         }}
       />
-      <button onClick={incrementHandler}>+ ADD</button>
-      <button onClick={decrementHandler}>- Delete</button>
+      <button>+ ADD</button>
+      <button>- Remove</button>
     </form>
   );
 };
