@@ -6,9 +6,7 @@ const Meals = () => {
   return (
     <>
       <Summary />
-      <main>
-        <AvailableMeals />
-      </main>
+      <AvailableMeals />
     </>
   );
 };
