@@ -8,6 +8,7 @@ const MealsForm = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
     const enteredQuantity = quantityRef.current.value;
+    console.log(enteredQuantity);
     const enteredQuantityNumber = +enteredQuantity;
     if (
       enteredQuantity.trim().length === 0 ||
@@ -25,7 +26,7 @@ const MealsForm = (props) => {
         ref={quantityRef}
         label="Quantity"
         input={{
-          id: "quantity_" + props.id,
+          id: `quantity_${props.id}`,
           type: "number",
           min: "1",
           max: "10",
