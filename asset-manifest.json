@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Fardeen2001/react_meals/static/css/main.ddf100c0.css",
+    "main.js": "/Fardeen2001/react_meals/static/js/main.778576e3.js",
+    "static/media/meals.jpg": "/Fardeen2001/react_meals/static/media/meals.4cef7d2258efdb960f8c.jpg",
+    "index.html": "/Fardeen2001/react_meals/index.html",
+    "main.ddf100c0.css.map": "/Fardeen2001/react_meals/static/css/main.ddf100c0.css.map",
+    "main.778576e3.js.map": "/Fardeen2001/react_meals/static/js/main.778576e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddf100c0.css",
+    "static/js/main.778576e3.js"
+  ]
+}
